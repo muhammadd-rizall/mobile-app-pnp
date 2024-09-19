@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GaleryPhotos"
+    android:padding="2dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="manajemen Informatika"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FF8C00"
+        android:textSize="27dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/gambar0"
+        android:layout_width="172dp"
+        android:layout_height="169dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="108dp"
+       android:src="@drawable/logopoli"
+        />
+
+    <ImageView
+        android:id="@+id/gambar1"
+        android:layout_width="387dp"
+        android:layout_height="169dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginRight="-92dp"
+        android:src="@drawable/gambar1" />
+
+    <ImageView
+        android:id="@+id/gambar2"
+        android:layout_width="387dp"
+        android:layout_height="169dp"
+        android:layout_below="@id/gambar0"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="-66dp"
+        android:layout_marginTop="323dp"
+        android:layout_marginRight="111dp"
+        android:src="@drawable/gambar2" />
+
+    <ImageView
+        android:id="@+id/gambar3"
+        android:layout_width="387dp"
+        android:layout_height="169dp"
+        android:layout_below="@id/gambar1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="326dp"
+        android:layout_marginRight="-83dp"
+        android:src="@drawable/gambar3" />
+
+    <ImageView
+        android:id="@+id/gambar4"
+        android:layout_width="387dp"
+        android:layout_height="169dp"
+        android:layout_below="@id/gambar1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="-47dp"
+        android:layout_marginTop="526dp"
+        android:layout_marginRight="123dp"
+        android:src="@drawable/gambar4" />
+
+    <ImageView
+        android:id="@+id/gambar5"
+        android:layout_width="387dp"
+        android:layout_height="169dp"
+        android:layout_below="@id/gambar1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="152dp"
+        android:layout_marginTop="528dp"
+        android:layout_marginRight="-68dp"
+        android:src="@drawable/gambar5" />
+
+</RelativeLayout>
